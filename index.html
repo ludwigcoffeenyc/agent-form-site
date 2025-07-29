@@ -1,31 +1,24 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <title>Send Webhook Test</title>
-</head>
 <body>
   <h2>Send Webhook Test</h2>
-  <form action="https://hook.us2.make.com/zrzg9st62nnvrb1fh8mvc3p713efthz" method="POST">
+  <form action="https://hook.us2.make.com/zrzg9st62nnvrb1fh8mvc3p713efthz2" method="POST">
+    <label for="agent_name">Agent Name:</label><br>
+    <input type="text" name="agent_name" id="agent_name"><br><br>
 
-    <label>Agent Name:</label><br>
-    <input type="text" name="agent_name"><br><br>
+    <label for="task_scope">Task Scope:</label><br>
+    <input type="text" name="task_scope" id="task_scope"><br><br>
 
-    <label>Task Scope:</label><br>
-    <input type="text" name="task_scope"><br><br>
+    <label for="current_status">Current Status:</label><br>
+    <input type="text" name="current_status" id="current_status"><br><br>
 
-    <label>Current Status:</label><br>
-    <input type="text" name="current_status"><br><br>
+    <label for="pending_actions">Pending Actions:</label><br>
+    <input type="text" name="pending_actions" id="pending_actions"><br><br>
 
-    <label>Pending Actions:</label><br>
-    <input type="text" name="pending_actions"><br><br>
+    <label for="vp_notes">VP Notes:</label><br>
+    <input type="text" name="vp_notes" id="vp_notes"><br><br>
 
-    <label>VP Notes:</label><br>
-    <input type="text" name="vp_notes"><br><br>
-
-    <label>Commander Approval Needed (Y/N):</label><br>
-    <input type="text" name="commander_approval"><br><br>
+    <label for="commander_approval">Commander Approval Needed (Y/N):</label><br>
+    <input type="text" name="commander_approval" id="commander_approval"><br><br>
 
     <input type="submit" value="Submit to Webhook">
   </form>
 </body>
-</html>
